@@ -1,10 +1,10 @@
-# Nombre del juego (<- borrar y completar)
+# Wollokball 
 
 ## Equipo de desarrollo
 
-- Alguien
-- Persona
-- etc.
+- Alex Etcheverry
+- Camilo Poggi
+
 
 ## Capturas
 
@@ -17,6 +17,6 @@
 
 ## Otros
 
-- Curso/Facultad
+- UTN FRBA, Pdep K2005
 - Versión de wollok
-- Una vez terminado, no tenemos problemas en que el repositorio sea público / queremos manternerlo privado
+- Una vez terminado, no tenemos problemas en que el repositorio sea público.
