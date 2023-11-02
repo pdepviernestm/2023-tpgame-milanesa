@@ -14,9 +14,10 @@
 
 ## Controles
 
-Jugador 1: WASD
+Jugador 1: WASD, X para patear, C para correr  
 
-Jugador 2: Flechas
+
+Jugador 2: Flechas, shift para patear, ctrl para correr
 
 Menú: WASD + Enter
 
