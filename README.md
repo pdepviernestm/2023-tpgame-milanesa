@@ -15,7 +15,9 @@
 ## Controles
 
 Jugador 1: WASD
+
 Jugador 2: Flechas
+
 Menú: WASD + Enter
 
 ## Otros
