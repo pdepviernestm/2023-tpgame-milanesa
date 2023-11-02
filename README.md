@@ -12,13 +12,14 @@
 ![cap2](https://github.com/pdepviernestm/2023-tpgame-milanesa/blob/master/assets/cap2.PNG)
 ![cap3](https://github.com/pdepviernestm/2023-tpgame-milanesa/blob/master/assets/cap3.PNG)
 
-## Reglas de Juego / Instrucciones
+## Controles
 
-(Escribirlas)
-
+Jugador 1: WASD
+Jugador 2: Flechas
+Menú: WASD + Enter
 
 ## Otros
 
 - UTN FRBA, Pdep K2005
-- Versión de wollok
+- Wollok 3.0.0
 - Una vez terminado, no tenemos problemas en que el repositorio sea público.
