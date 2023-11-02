@@ -8,7 +8,7 @@
 
 ## Capturas
 
-(agregar)
+![cap1](https://github.com/pdepviernestm/2023-tpgame-milanesa/blob/master/assets/Captura.PNG)
 
 ## Reglas de Juego / Instrucciones
 
