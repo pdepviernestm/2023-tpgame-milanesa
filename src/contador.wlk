@@ -39,10 +39,22 @@ object contador{
 			image = "1-3.png"
 		else if(jugador2.goles() == 3 and jugador1.goles() == 2)
 			image = "2-3.png"
-		else if(jugador2.goles() == 4 and jugador1.goles() == 3)
-			image = "4-3.png"
 		else if(jugador2.goles() == 3 and jugador1.goles() == 4)
+			image = "4-3.png"
+		else if(jugador2.goles() == 2 and jugador1.goles() == 4)
+			image = "4-2.png"
+		else if(jugador2.goles() == 1 and jugador1.goles() == 4)
+			image = "4-1.png"
+		else if(jugador2.goles() == 0 and jugador1.goles() == 4)
+			image = "4-0.png"
+		else if(jugador2.goles() == 4 and jugador1.goles() == 2)
+			image = "2-4.png"
+		else if(jugador2.goles() == 4 and jugador1.goles() == 3)
 			image = "3-4.png"
+		else if(jugador2.goles() == 4 and jugador1.goles() == 1)
+			image = "1-4.png"
+		else if(jugador2.goles() == 4 and jugador1.goles() == 0)
+			image = "0-4.png"
 		else if(jugador2.goles() == 4 and jugador1.goles() == 4)
 			image = "4-4.png"
 	}
