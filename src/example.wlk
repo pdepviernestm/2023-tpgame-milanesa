@@ -22,25 +22,27 @@ object pelota{
 		
 		game.sound("patadaSuave.mp3").play()
 		
-		if((jugador.position() == posicionActual.left(1) and otroJugador.position() == posicionActual.right(1))
+		if(proximaPosicion.y() > 7 and proximaPosicion.y() < 11){
+			if(proximaPosicion.x() <2 and posicionActual.x() >2)
+		   		newPosition = game.at(2,9)
+		   	else if(proximaPosicion.x() > 34 and posicionActual.x() < 34)
+		   		newPosition = game.at(34,9)
+		   }
+		else if((proximaPosicion.y() < 7 or proximaPosicion.y() > 11) and
+			(proximaPosicion.y() > 16 or proximaPosicion.y() < 2 or 
+			proximaPosicion.x() > 33 or proximaPosicion.x() < 3 )
+		){
+			newPosition = posicionActual
+			}
+			
+		else if((jugador.position() == posicionActual.left(1) and otroJugador.position() == posicionActual.right(1))
 		or (jugador.position() == posicionActual.right(1) and otroJugador.position() == posicionActual.left(1))
 		or (jugador.position() == posicionActual.up(1) and otroJugador.position() == posicionActual.down(1))
 		or (jugador.position() == posicionActual.down(1) and otroJugador.position() == posicionActual.up(1))
 		){
 			newPosition = posicionActual
 		}
-		else if(proximaPosicion.y() > 7 and proximaPosicion.y() < 11){
-			if(proximaPosicion.x() <2 and posicionActual.x() >2)
-		   		newPosition = game.at(2,9)
-		   	else if(proximaPosicion.x() > 34 and posicionActual.x() < 34)
-		   		newPosition = game.at(34,9)
-		   }
-		else if((proximaPosicion.y() < 7 and proximaPosicion.y() > 11) and
-			(proximaPosicion.y() > 16 or proximaPosicion.y() < 2 or 
-			proximaPosicion.x() > 33 or proximaPosicion.x() < 3 )
-		){
-			newPosition = posicionActual
-			}
+		
 
 	   	return newPosition
 	}
@@ -56,7 +58,10 @@ object pelota{
 		
 		game.sound("patadaFuerte.mp3").play()
 		
-		if(jugador.oldPosition() == self.position().left(1)){
+		
+		
+		
+	    if(jugador.oldPosition() == self.position().left(1)){
 			if(
 				posicionActual.y() == jugadorContrario.position().y() and 
 				posicionActual.x() <= jugadorContrario.position().x() and 
@@ -100,7 +105,14 @@ object pelota{
 			else
 				self.downkick()
 				}
-				
+		
+		
+		if((position.y() < 7 and position.y() > 11) and
+			(position.y() > 16 or position.y() < 2 or 
+			position.x() > 33 or position.x() < 3 )
+		){
+			position = posicionActual
+			}
 		jugador.patear()
 	}
 	
@@ -272,7 +284,5 @@ const jugador2= new Player(image = "fichaalem.png", position = game.at(30,9))
 
 	
 
-
-	
 
 	
