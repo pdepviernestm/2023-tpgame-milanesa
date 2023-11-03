@@ -9,6 +9,7 @@ object empezar {
 	method iniciar(){
 		jugador1.cambiarPosicion(game.at(4,9))
 		jugador2.cambiarPosicion(game.at(30,9))
+		pelota.nuevaPosicion(game.center())
 		jugador1.resetearGoles()
 		jugador2.resetearGoles()
     	game.addVisual(jugador1)
