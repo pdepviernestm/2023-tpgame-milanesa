@@ -1,0 +1,14 @@
+import wollok.game.*
+import example.*
+import arco.*
+import Menu.*
+import Iniciar.*
+program abc {
+     
+     
+    
+   menuPrincipal.inicializar()
+   menuPrincipal.iniciar()
+
+    
+    }
