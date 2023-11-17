@@ -1,22 +1,28 @@
-# Nombre del juego (<- borrar y completar)
+# Wollokball 
 
 ## Equipo de desarrollo
 
-- Alguien
-- Persona
-- etc.
+- Alex Etcheverry
+- Camilo Poggi
+
 
 ## Capturas
 
-(agregar)
+![cap1](https://github.com/pdepviernestm/2023-tpgame-milanesa/blob/master/assets/Captura.PNG)
+![cap2](https://github.com/pdepviernestm/2023-tpgame-milanesa/blob/master/assets/cap2.PNG)
+![cap3](https://github.com/pdepviernestm/2023-tpgame-milanesa/blob/master/assets/cap3.PNG)
 
-## Reglas de Juego / Instrucciones
+## Controles
 
-(Escribirlas)
+Jugador 1: WASD, X para patear, C para correr  
 
+
+Jugador 2: Flechas, shift para patear, ctrl para correr
+
+Menú: WASD + Enter
 
 ## Otros
 
-- Curso/Facultad
-- Versión de wollok
-- Una vez terminado, no tenemos problemas en que el repositorio sea público / queremos manternerlo privado
+- UTN FRBA, Pdep K2005
+- Wollok 3.0.0
+- Una vez terminado, no tenemos problemas en que el repositorio sea público.
