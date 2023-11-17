@@ -23,9 +23,9 @@ object pelota{
 		game.sound("patadaSuave.mp3").play()
 		
 		if(proximaPosicion.y() > 7 and proximaPosicion.y() < 11){
-			if(proximaPosicion.x() <2 and posicionActual.x() >2)
+			if(proximaPosicion.x() <=2 and posicionActual.x() >2)
 		   		newPosition = game.at(2,9)
-		   	else if(proximaPosicion.x() > 34 and posicionActual.x() < 34)
+		   	else if(proximaPosicion.x() >= 34 and posicionActual.x() < 34)
 		   		newPosition = game.at(34,9)
 		   }
 		else if((proximaPosicion.y() < 7 or proximaPosicion.y() > 11) and
